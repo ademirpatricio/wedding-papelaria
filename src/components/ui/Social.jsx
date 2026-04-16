@@ -18,19 +18,19 @@ function Social() {
   ];
 
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-2">
       {socials.map((item) => (
         <a
           key={item.name}
           href={item.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-9 h-9 flex items-center justify-center rounded-full border border-white/30 hover:bg-white/10 transition"
+          className="flex items-center justify-center h-12 w-12 rounded-full bg-white/5 hover:bg-white/15 backdrop-blur-sm transition-all duration-300"
         >
           <img
             src={item.icon}
             alt={item.name}
-            className="w-4 h-4"
+            className="w-4 h-4 opacity-80 hover:opacity-100 transition"
           />
         </a>
       ))}

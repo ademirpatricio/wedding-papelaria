@@ -2,21 +2,20 @@ function Button({
   label,
   link = "#",
   target = "_self",
-  variant = "primary", // 👈 chave aqui
+  variant = "primary",
 }) {
-  
   const base =
-    "inline-block px-8 py-4 rounded-full font-bold tracking-wide transition-all duration-300 border-2";
+    "inline-flex items-center justify-center h-12 px-8 rounded-full font-sans font-semibold text-sm md:text-base tracking-[0.08em] transition-all duration-300";
 
   const variants = {
     primary:
-      "border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black",
+      "text-primary border border-primary hover:bg-primary hover:text-black",
 
     white:
-      "border-white text-white hover:bg-white hover:text-black",
+      "text-white border border-white/40 hover:bg-white hover:text-black",
 
     purple:
-      "border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white",
+      "text-purple-500 border border-purple-500 hover:bg-purple-500 hover:text-white",
   };
 
   return (
