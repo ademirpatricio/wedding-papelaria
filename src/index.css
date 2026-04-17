@@ -21,27 +21,37 @@
 @layer components {
   .title {
     font-family: "Source Serif 4", serif;
-    @apply font-semibold tracking-tight leading-tight;
+    @apply 
+    text-3xl md:text-5xl
+    font-normal
+    mb-8; 
   }
-
-  .title-lg {
-    @apply text-4xl md:text-5xl;
+  .small-title {
+    font-family: "Source Serif 4", serif;
+    @apply 
+    text-2xl md:text-3xl
+    font-medium
+    mb-8; 
   }
-
-  .title-md {
-    @apply text-3xl md:text-4xl;
+  .sub-title {
+    font-family: "Source Sans 3", sans-serif;
+    @apply 
+    text-xl md:text-2xl
+    font-light 
+    mb-10;
   }
-
-  .title-sm {
-    @apply text-2xl md:text-3xl;
-  }
-
   .text-body {
     font-family: "Source Sans 3", sans-serif;
-    @apply text-base md:text-lg leading-relaxed;
+    @apply 
+    text-xl md:text-xl
+    font-normal 
+    leading-relaxed
+    text-gray-600;
   }
-
   .text-muted {
     @apply text-gray-500;
+  }
+  .emphasis {
+    @apply font-bold;
   }
 }

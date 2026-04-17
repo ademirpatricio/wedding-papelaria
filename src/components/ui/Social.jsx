@@ -30,7 +30,7 @@ function Social() {
           <img
             src={item.icon}
             alt={item.name}
-            className="w-4 h-4 opacity-80 hover:opacity-100 transition"
+            className="w-8 h-8 opacity-80 hover:opacity-100 transition"
           />
         </a>
       ))}

@@ -75,16 +75,17 @@ export default function Hero() {
       </div>
 
       {/* CONTEÚDO */}
-      <div className="relative z-10 flex items-center min-h-[calc(90vh-100px)]">
+      <div className="relative z-10 flex items-center min-h-[calc(80vh-100px)]">
         <div className="max-w-6xl mx-auto px-6 w-full">
           
-          <div className="max-w-lg mx-auto md:mx-0 text-center md:text-left">
+          <div className="max-w-xl mx-auto md:mx-0 text-center md:text-left">
             
-            <h1 className="title text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl leading-[1.1] font-medium mb-6">
-              Transforme seu casamento com uma identidade visual única e personalizada
+            <h1 className="title text-white leading-tight">
+              Transforme seu casamento com uma
+              <span className="emphasis"> identidade visual única e personalizada</span>
             </h1>
 
-            <p className="text-body text-gray-200 max-w-md mx-auto md:mx-0 mb-10">
+            <p className="sub-title text-gray-200 leading-snug">
               Dê ao seu grande dia um toque especial com designs que refletem a essência do seu amor.
             </p>
 
@@ -102,10 +103,11 @@ export default function Hero() {
       </div>
 
       {/* BARRA */}
-      <div className="absolute bottom-0 w-full bg-gradient-to-r from-purple-900 to-pink-800 py-6 text-center text-xs sm:text-sm md:text-base font-semibold tracking-wide px-4">
-        <span className="text-white">ATENÇÃO! EXCLUSIVO PARA</span>{" "}
-        <span className=" block sm:inline text-yellow-300">
-          CASAIS VERDADEIRAMENTE APAIXONADOS
+      <div className="absolute bottom-0 w-full bg-gradient-to-r from-purple-900 to-pink-800 
+      py-8 px-8 text-center text-body tracking-wide">
+        <span className="text-white">ATENÇÃO! Exclusivo para</span>{" "}
+        <span className="text-yellow-300 emphasis">
+          casais verdadeiramente apaixonados.
         </span>
       </div>
 

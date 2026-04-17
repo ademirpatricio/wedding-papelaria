@@ -5,7 +5,7 @@ function Button({
   variant = "primary",
 }) {
   const base =
-    "inline-flex items-center justify-center h-12 px-8 rounded-full font-sans font-semibold text-sm md:text-base tracking-[0.08em] transition-all duration-300";
+    "inline-flex items-center justify-center h-16 px-12 rounded font-sans font-semibold text-base md:text-base tracking-[0.08em] transition-all duration-300";
 
   const variants = {
     primary:
