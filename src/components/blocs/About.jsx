@@ -70,6 +70,7 @@ export default function About() {
           <Button
             label="💍 ESCOLHA SEU PLANO"
             variant="purple"
+            link="#pricing"
           />
         </div>
 

@@ -67,7 +67,7 @@ export default function Hero() {
             <Button
               variant="white"
               label="Fale conosco"
-              link="#"
+              link="https://wa.me/5581997278234?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Malabares%20Wedding.%20"
               target="_blank"
             />
           </div>
@@ -93,8 +93,8 @@ export default function Hero() {
               <Button
                 variant="primary"
                 label="💍 ESCOLHA SEU PLANO"
-                link="#"
-                target="_blank"
+                link="#pricing"
+                target=""
               />
             </div>
 

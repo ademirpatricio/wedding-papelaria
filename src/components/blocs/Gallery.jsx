@@ -9,14 +9,14 @@ export default function Gallery() {
   ];
 
   return (
-    <section className="w-full py-16 bg-[#f5f1ed]">
+    <section className="w-full py-10 bg-[#4f2286]">
       
       {/* =========================
           🖼️ GALERIA
       ========================= */}
       <div className="w-full overflow-x-auto">
         
-        <div className="flex gap-4 px-6 md:px-0 md:max-w-7xl md:mx-auto">
+        <div className="flex gap-3 px-6 md:px-6 md:max-w-7xl md:mx-auto">
           
           {images.map((src, index) => (
             <div

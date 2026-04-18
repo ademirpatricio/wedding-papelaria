@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "../ui/Button";
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -37,7 +38,7 @@ export default function FAQ() {
           🧠 TÍTULO
       ========================= */}
       <div className="text-center mb-16 px-6">
-        <h2 className="text-4xl font-bold text-purple-800">
+        <h2 className="title emphasis text-purple-800">
           F.A.Q <span className="text-2xl font-normal ml-4">Perguntas Frequentes</span>
         </h2>
       </div>
@@ -54,7 +55,7 @@ export default function FAQ() {
             onClick={() => toggle(index)}
           >
             <div className="flex justify-between items-center">
-              <p className="text-purple-800 font-semibold">
+              <p className="font-normal text-body">
                 {item.question}
               </p>
               <span className="text-2xl text-purple-800">
@@ -63,7 +64,7 @@ export default function FAQ() {
             </div>
 
             {openIndex === index && (
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-700 text-md text-light">
                 {item.answer}
               </p>
             )}
@@ -75,35 +76,34 @@ export default function FAQ() {
       {/* =========================
           💬 CTA FINAL
       ========================= */}
-      <div className="max-w-7xl mx-auto px-6 mt-24 grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-6 mt-24 grid md:grid-cols-2 gap-2 items-center">
         
         {/* IMAGEM */}
         <div className="flex justify-center">
           <img
             src="/images/whatsapp.png"
             alt="Whatsapp"
-            className="w-56"
+            className="w-64"
           />
         </div>
 
         {/* TEXTO */}
         <div>
-          <h3 className="text-3xl font-bold text-purple-800 mb-4">
+          <h3 className="small-title emphasis text-purple-800 mb-5">
             Ainda ficou com alguma dúvida?
           </h3>
 
-          <p className="text-gray-700 mb-6">
+          <p className="text-body mb-7">
             Caso você tenha ficado com alguma dúvida ou precise de um orçamento customizado, 
             <strong> chama a gente no Whatsapp!</strong>
           </p>
 
-          <a
-            href="https://wa.me/SEUNUMERO"
-            target="_blank"
-            className="inline-block bg-green-500 text-white px-8 py-4 rounded-full font-bold hover:bg-green-600 transition"
-          >
-            CHAMAR NO WHATSAPP
-          </a>
+          <Button
+              variant="whatsapp"
+              label="Chama a gente no Whatsapp"
+              link="https://wa.me/5581997278234?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Malabares%20Wedding.%20"
+              target="_blank"
+            />
         </div>
 
       </div>

@@ -75,6 +75,7 @@ export default function Benefits() {
         <Button
           label="💍 ESCOLHA SEU PLANO"
           variant="primary"
+          link="#pricing"
         />
       </div>
 

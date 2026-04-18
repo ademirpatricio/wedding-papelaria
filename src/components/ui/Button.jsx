@@ -16,6 +16,9 @@ function Button({
 
     purple:
       "text-purple-500 border border-purple-500 hover:bg-purple-500 hover:text-white",
+      
+    whatsapp:
+      "text-white border bg-green-600 border-green-600 hover:bg-green-500",
   };
 
   return (
