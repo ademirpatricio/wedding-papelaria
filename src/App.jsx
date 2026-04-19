@@ -7,6 +7,7 @@ import Pricing from './components/blocs/Pricing.jsx'
 import FAQ from './components/blocs/Faq.jsx'
 import AboutMalabares from './components/blocs/AboutMalabares.jsx'
 import FinalCTA from './components/blocs/FinalCTA.jsx'
+import Whatsapp from './components/ui/Whatsapp.jsx'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FAQ />
       <AboutMalabares />
       <FinalCTA />
+      <Whatsapp/>
     </>
   )
 }

@@ -11,27 +11,27 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         
         {/* 🖼️ IMAGENS */}
-        <div className="md:relative h-[500px] relative h-[300px]">
+        <div className="relative h-[240px]  md:h-[500px]">
           
           <img
             src="/images/img2.png" alt=""
-            className="absolute top-16 left-0 shadow-lg rotate-0  border-white
-            w-32 border-4
-            md:w-64 md:border-8"
+            className="absolute  shadow-lg rotate-0  border-white
+            w-40 border-4 top-12 left-4
+            md:w-64 md:border-8 md:top-16 md:left-0"
           />
 
           <img
             src="/images/img3.png" alt=""
-            className="absolute top-40 left-24  shadow-lg rotate-[-10deg] border-white
-            w-32 border-4
-            md:w-64 md:border-8"
+            className="absolute shadow-lg rotate-[-10deg] border-white
+            w-40 border-4 top-24 left-20
+            md:w-64 md:border-8 md:top-40 md:left-24"
           />
 
           <img
             src="/images/img1.png" alt=""
-            className="absolute top-0  shadow-lg rotate-[-12deg] border-white
-            w-32 border-4 left-36
-            md:w-72 md:border-8 md:left-56"
+            className="absolute shadow-lg rotate-[-12deg] border-white
+            w-40 border-4 left-36 top-0
+            md:w-72 md:border-8 md:left-56 md:top-0"
           />
 
         </div>
