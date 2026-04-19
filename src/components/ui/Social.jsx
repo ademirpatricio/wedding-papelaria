@@ -8,12 +8,17 @@ function Social() {
     {
       name: "LinkedIn",
       icon: "/icons/ic-linkedin.svg",
-      link: "https://linkedin.com/malabaresmkt",
+      link: "https://www.linkedin.com/company/malabaresmkt/",
     },
     {
       name: "TikTok",
       icon: "/icons/ic-tiktok.svg",
-      link: "https://tiktok.com/@malabaresmkt",
+      link: "https://www.tiktok.com/@malabares.mkt",
+    },
+    {
+      name: "Behance",
+      icon: "/icons/ic-behance.svg",
+      link: "https://www.behance.net/malabaresmkt",
     },
   ];
 

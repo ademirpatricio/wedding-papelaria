@@ -12,6 +12,7 @@ export default function Pricing() {
         "Arte para save the date",
         "Mockup do convite impresso",
       ],
+      link: "https://wa.me/5581997278234?text=Ol%C3%A1%2C%20gostaria%20de%20contratar%20o%20%F0%9F%A5%82%20Pacote%20Essencial%20da%20Malabares%20Wedding."
     },
     {
       name: "💎 Pacote Exclusivo",
@@ -23,6 +24,7 @@ export default function Pricing() {
         "Layout para papelaria (menu, cardápio, número de mesa)",
         "Arte para posts nas redes sociais",
       ],
+      link: "https://wa.me/5581997278234?text=Ol%C3%A1!%20Gostaria%20de%20contratar%20%F0%9F%92%8E%20Pacote%20Exclusivo%20da%20Malabares%20Wedding."
     },
     {
       name: "✨ Pacote Premium",
@@ -33,6 +35,7 @@ export default function Pricing() {
         "Site ou página de casamento",
         "Consultoria personalizada",
       ],
+      link: "https://wa.me/5581998590849?text=Ol%C3%A1!%20Gostaria%20de%20contratar%20o%20%E2%9C%A8%20Pacote%20Premium%20da%20Malabares%20Wedding."
     },
   ];
 
@@ -88,6 +91,8 @@ export default function Pricing() {
             <Button
               label="QUERO ESTE PACOTE"
               variant="purple"
+              link={plan.link}
+              target="_blank"
             />
           </div>
         ))}
