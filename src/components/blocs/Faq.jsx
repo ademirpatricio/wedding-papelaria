@@ -32,12 +32,12 @@ export default function FAQ() {
   };
 
   return (
-    <section className="w-full py-24 bg-[#f5f1ed]">
+    <section className="w-full py-20 md:py-24 bg-[#f5f1ed]">
       
       {/* =========================
           🧠 TÍTULO
       ========================= */}
-      <div className="text-center mb-16 px-6">
+      <div className="text-center mb-10 md:mb-16 px-6">
         <h2 className="title emphasis text-purple-800">
           F.A.Q <span className="text-2xl font-normal ml-4">Perguntas Frequentes</span>
         </h2>

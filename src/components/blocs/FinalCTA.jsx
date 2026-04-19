@@ -2,23 +2,29 @@ import Button from "../ui/Button";
 
 export default function FinalCTA() {
   return (
-    <section className="w-full py-24 bg-[#f5f1ed] text-center">
+    <section className="w-full py-24 bg-[#f5f1ed] text-center"
+    style={{ 
+      backgroundImage: "url('/images/about.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+     }}>
       
       <div className="max-w-3xl mx-auto px-6">
         
         {/* =========================
             🧠 HEADLINE
         ========================= */}
-        <h2 className="text-3xl md:text-4xl font-bold text-purple-800 mb-6 leading-snug">
-          Seu <span className="font-bold">casamento merece</span> um design à altura da sua história.
+        <h2 className="title emphasis text-purple-800 mb-6 leading-snug">
+          Seu casamento merece um design à altura da sua história.
         </h2>
 
         {/* SUB */}
-        <p className="font-semibold text-gray-700 mb-4">
+        <h3 className="sub-title font-medium mb-4">
           A identidade visual do seu casamento é mais do que um detalhe – é um reflexo do amor que vocês compartilham.
-        </p>
+        </h3>
 
-        <p className="text-gray-600 mb-10">
+        <p className="text-body font-light mb-10">
           Com a Malabares Wedding, cada elemento do seu grande dia será pensado com carinho e personalidade,
           criando uma experiência inesquecível para você e seus convidados.
         </p>
@@ -26,20 +32,18 @@ export default function FinalCTA() {
         {/* =========================
             🎯 CTAs
         ========================= */}
-        <div className="flex flex-col items-center gap-4 mb-12">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-12">
           
           <Button
             label="💍 ESCOLHA SEU PLANO"
-            variant="primary"
+            variant="purple"
           />
-
-          <a
-            href="https://wa.me/SEUNUMERO"
+          <Button
+            label="CHAMA NO WHATSAPP"
+            variant="whatsapp"
             target="_blank"
-            className="inline-block bg-green-500 text-white px-10 py-4 rounded-full font-bold hover:bg-green-600 transition"
-          >
-            CHAMAR NO WHATSAPP
-          </a>
+            link="https://wa.me/5581997278234?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Malabares%20Wedding.%20"
+          />
 
         </div>
 
@@ -49,13 +53,13 @@ export default function FinalCTA() {
         <div className="flex flex-col items-center gap-4">
           
           <img
-            src="/logo.svg"
+            src="/logo-color.svg"
             alt="Malabares"
             className="h-10"
           />
 
           <p className="text-sm text-gray-500">
-            © 2025 Malabares | Todos os direitos reservados
+            © 2026 Malabares | Todos os direitos reservados
           </p>
 
         </div>

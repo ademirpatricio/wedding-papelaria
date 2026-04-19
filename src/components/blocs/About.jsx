@@ -11,27 +11,33 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         
         {/* 🖼️ IMAGENS */}
-        <div className="relative h-[500px]">
+        <div className="md:relative h-[500px] relative h-[300px]">
           
           <img
             src="/images/img2.png" alt=""
-            className="absolute top-16 left-0 w-64 shadow-lg rotate-0 border-8 border-white"
+            className="absolute top-16 left-0 shadow-lg rotate-0  border-white
+            w-32 border-4
+            md:w-64 md:border-8"
           />
 
           <img
             src="/images/img3.png" alt=""
-            className="absolute top-40 left-24 w-64 shadow-lg rotate-[-10deg] border-8 border-white"
+            className="absolute top-40 left-24  shadow-lg rotate-[-10deg] border-white
+            w-32 border-4
+            md:w-64 md:border-8"
           />
 
           <img
             src="/images/img1.png" alt=""
-            className="absolute top-0 left-56 w-72 shadow-lg rotate-[-12deg] border-8 border-white"
+            className="absolute top-0  shadow-lg rotate-[-12deg] border-white
+            w-32 border-4 left-36
+            md:w-72 md:border-8 md:left-56"
           />
 
         </div>
 
         {/* 📝 TEXTO */}
-        <div className="bg-white p-20 rounded-2xl shadow-xl text-left">
+        <div className="bg-white p-10 md:p-20 rounded-2xl shadow-xl text-left">
           
           <h2 className="small-title text-purple-800">
             O convite do seu casamento deveria ser
@@ -57,7 +63,7 @@ export default function About() {
       <div className="max-w-5xl mx-auto px-6 mt-24 grid md:grid-cols-[1fr_1.8fr] gap-12 items-center">
         
         {/* 📝 TEXTO */}
-        <div className="text-left">
+        <div className="text-center md:text-left order-2 md:order-1">
           <h2 className="small-title text-purple-800">
             É isso que a Malabares Wedding faz por você.
           </h2>
@@ -75,7 +81,7 @@ export default function About() {
         </div>
 
         {/* 🖼️ IMAGEM */}
-        <div className="flex justify-center">
+        <div className="flex justify-center order-1 md:order-2">
           <img
             src="/images/mockup.png"
             alt=""

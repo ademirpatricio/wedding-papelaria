@@ -25,7 +25,7 @@ export default function Benefits() {
   ];
 
   return (
-    <section className="w-full px-10 py-24 bg-gradient-to-b from-purple-900 to-purple-800 text-white"
+    <section className="w-full px-4 md:px-10 py-24 bg-gradient-to-b from-purple-900 to-purple-800 text-white"
     style={{ backgroundImage: "url('/images/benefits.jpg')" }}>
       
       {/* =========================
@@ -40,7 +40,7 @@ export default function Benefits() {
       {/* =========================
           🧱 GRID DE CARDS
       ========================= */}
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-4 items-stretch">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-14 md:gap-4 items-stretch">
         
         {items.map((item) => (
           <div key={item.number} className="relative">

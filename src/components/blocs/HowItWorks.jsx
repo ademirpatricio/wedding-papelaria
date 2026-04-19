@@ -37,7 +37,7 @@ export default function HowItWorks() {
         {/* CONTEÚDO */}
         <div className="order-1 md:order-2">
           
-          <h2 className="small-title text-purple-800 ">
+          <h2 className="small-title text-purple-800 text-center md:text-left">
             Passo a passo para contratar sua <span className="emphasis"> Identidade Visual Personalizada</span>
           </h2>
 

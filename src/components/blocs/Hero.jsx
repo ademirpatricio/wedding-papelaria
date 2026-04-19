@@ -58,7 +58,7 @@ export default function Hero() {
           <img
             src="/logo.svg"
             alt="Malabares Wedding"
-            className="h-10 md:h-11 opacity-90"
+            className="h-10 md:h-11 mt-4 md:mt-0opacity-90"
           />
 
           <div className="hidden md:flex items-center gap-5">
@@ -104,7 +104,7 @@ export default function Hero() {
 
       {/* BARRA */}
       <div className="absolute bottom-0 w-full bg-gradient-to-r from-purple-900 to-pink-800 
-      py-8 px-8 text-center text-body tracking-wide">
+      py-4 md:py-8 px-4 md:px-8 text-center text-body tracking-wide">
         <span className="text-white">ATENÇÃO! Exclusivo para</span>{" "}
         <span className="text-yellow-300 emphasis">
           casais verdadeiramente apaixonados.

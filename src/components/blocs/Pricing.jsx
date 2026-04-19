@@ -56,7 +56,8 @@ export default function Pricing() {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className="bg-white text-body rounded-2xl p-12 flex flex-col justify-between shadow-xl"
+            className="bg-white text-body rounded-2xl 
+            md:p-12 p-6 py-8 flex flex-col justify-between shadow-xl"
           >
             
             <div>
@@ -152,12 +153,12 @@ export default function Pricing() {
           <img
             src="/images/ebook.png"
             alt=""
-            className="max-w-xl"
+            className="md:max-w-xl"
           />
         </div>
 
         {/* TEXTO */}
-        <div>
+        <div className="text-center md:text-left">
           <p className="mb-2 text-lg emphasis">+ Bônus - Ebook Gratuito</p>
 
           <h3 className="small-title emphasis text-primary mb-6">

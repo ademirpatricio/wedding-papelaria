@@ -1,3 +1,5 @@
+import Button from "../ui/Button";
+
 export default function AboutMalabares() {
   return (
     <section className="w-full">
@@ -7,31 +9,34 @@ export default function AboutMalabares() {
         {/* =========================
             🟣 TEXTO (lado esquerdo)
         ========================= */}
-        <div className="bg-purple-700 text-white flex items-center">
+        <div className="bg-[#4f2286] text-white flex items-center">
           
           <div className="max-w-xl mx-auto px-8 py-20">
-            
-            <p className="text-lg mb-4">
-              Conheça um pouquinho mais
-            </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold mb-8">
-              <span className="text-yellow-300">sobre a Malabares</span>
+            <h2 className="title mb-8 text-primary text-center md:text-left">
+              <span className="small-title text-white">Conheça um pouquinho mais </span>
+              sobre a Malabares
             </h2>
 
-            <p className="font-semibold mb-6">
+            <h3 className="sub-title font-medium mb-4">
               Somos uma dupla apaixonada por comunicação, design, inovação e tecnologia.
-            </p>
+            </h3>
 
-            <p className="mb-6 text-white/90">
+            <p className="text-body text-ligh text-white/80 mb-6">
               Estamos localizados em Recife, centro de inovação, tecnologia e cultura e
               nascemos do sonho de transformar ideias criativas em negócios digitais de sucesso.
             </p>
 
-            <p className="text-white/90">
+            <p className="text-body text-ligh text-white/80 mb-8">
               Unimos criatividade e análise de dados para criar conteúdo que atende às
               necessidades do seu público e projeto.
             </p>
+            <Button 
+              variant="white"
+              label="Conheça a Malabares"
+              link="https://malabares.com.br/"
+              target="_blank"
+            />
 
           </div>
         </div>
