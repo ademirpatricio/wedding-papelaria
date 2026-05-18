@@ -1,16 +1,79 @@
-# React + Vite
+# 💍 Malabares Wedding
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site institucional desenvolvido para a Malabares Wedding, braço especializado em experiências, identidade visual e soluções criativas para casamentos.
 
-Currently, two official plugins are available:
+O projeto foi criado com foco em transmitir sofisticação, leveza e conexão emocional através de uma experiência digital elegante e moderna.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Objetivos do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Apresentar os serviços da Malabares Wedding
+- Fortalecer o posicionamento premium da marca
+- Criar conexão emocional com os noivos
+- Gerar leads e novos atendimentos
+- Valorizar o portfólio e os diferenciais da agência
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Funcionalidades
+
+- Landing page institucional
+- Sessões de apresentação dos serviços
+- Portfólio visual
+- Navegação fluida
+- Layout responsivo
+- Estrutura focada em conversão
+
+---
+
+## 🎨 Direção de Arte
+
+A proposta visual foi construída com foco em:
+
+- sofisticação
+- minimalismo
+- romantismo
+- delicadeza visual
+- experiência premium
+
+O projeto utiliza uma estética clean e elegante para transmitir organização, carinho e atenção aos detalhes.
+
+---
+
+## 🧱 Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+
+---
+
+## 📱 Responsividade
+
+O site foi desenvolvido para funcionar perfeitamente em:
+
+- smartphones
+- tablets
+- desktops
+
+---
+
+## 🌎 Projeto Online
+
+https://wedding.malabares.com.br
+
+---
+
+## 🤝 Desenvolvido por
+
+Malabares MKT  
+https://malabares.com.br
+
+---
+
+## 📬 Contato
+
+WhatsApp:  
+https://wa.me/5581997278234
