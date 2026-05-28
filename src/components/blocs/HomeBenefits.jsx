@@ -1,6 +1,6 @@
 import Button from "../ui/Button";
 
-export default function Benefits() {
+export default function HomeBenefits() {
   const items = [
     {
       number: "01",
@@ -31,7 +31,10 @@ export default function Benefits() {
       {/* =========================
           🧠 TÍTULO
       ========================= */}
-      <div className="max-w-3xl mx-auto text-center px-6 mb-16">
+      <div
+        className="max-w-3xl mx-auto text-center px-6 mb-16"
+        data-aos="fade-up"
+      >
         <h2 className="small-title">
           Por que ter uma <span className="font-bold">Identidade Visual</span> personalizada para seu casamento?
         </h2>
@@ -42,8 +45,13 @@ export default function Benefits() {
       ========================= */}
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-14 md:gap-4 items-stretch">
         
-        {items.map((item) => (
-          <div key={item.number} className="relative">
+        {items.map((item, index) => (
+          <div
+            key={item.number}
+            className="relative"
+            data-aos="fade-up"
+            data-aos-delay={index * 100}
+          >
             
             {/* 🔢 BADGE */}
             <div className="title absolute z-50 -top-10 left-1/2 -translate-x-1/2 w-20 h-20 flex items-center justify-center rounded-full bg-white border-8 border-primary text-purple-800 font-bold text-3xl shadow-lg">
@@ -71,7 +79,7 @@ export default function Benefits() {
       {/* =========================
           🎯 CTA
       ========================= */}
-      <div className="mt-16 flex justify-center">
+      <div className="mt-16 flex justify-center" data-aos="fade-up">
         <Button
           label="💍 ESCOLHA SEU PLANO"
           variant="primary"

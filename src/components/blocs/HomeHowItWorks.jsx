@@ -1,4 +1,4 @@
-export default function HowItWorks() {
+export default function HomeHowItWorks() {
   const steps = [
     {
       number: "01",
@@ -26,7 +26,10 @@ export default function HowItWorks() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         
         {/* IMAGEM */}
-        <div className="flex justify-center order-2 md:order-1">
+        <div
+          className="flex justify-center order-2 md:order-1"
+          data-aos="fade-right"
+        >
           <img
             src="/images/thayna.png"
             alt=""
@@ -35,7 +38,7 @@ export default function HowItWorks() {
         </div>
 
         {/* CONTEÚDO */}
-        <div className="order-1 md:order-2">
+        <div className="order-1 md:order-2" data-aos="fade-left">
           
           <h2 className="small-title text-purple-800 text-center md:text-left">
             Passo a passo para contratar sua <span className="emphasis"> Identidade Visual Personalizada</span>
@@ -46,6 +49,8 @@ export default function HowItWorks() {
             {steps.map((step, index) => (
               <div
                 key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
                 className={`flex items-center gap-8 p-6 rounded-xl transition-all ${
                   step.highlight
                     ? "bg-purple-100 border border-purple-200"

@@ -1,28 +1,14 @@
-import Hero from './components/blocs/Hero.jsx'
-import About from './components/blocs/About.jsx'
-import Benefits from './components/blocs/Benefits.jsx'
-import HowItWorks from './components/blocs/HowItWorks.jsx'
-import Gallery from './components/blocs/Gallery.jsx'
-import Pricing from './components/blocs/Pricing.jsx'
-import FAQ from './components/blocs/Faq.jsx'
-import AboutMalabares from './components/blocs/AboutMalabares.jsx'
-import FinalCTA from './components/blocs/FinalCTA.jsx'
-import Whatsapp from './components/ui/Whatsapp.jsx'
+import { Routes, Route } from 'react-router-dom'
+
+import Home from './pages/Home'
+import Checklist from './pages/Checklist'
 
 function App() {
   return (
-    <>
-      <Hero />
-      <About />
-      <Benefits />
-      <HowItWorks />
-      <Gallery />
-      <Pricing />
-      <FAQ />
-      <AboutMalabares />
-      <FinalCTA />
-      <Whatsapp/>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/checklist-completo-papelaria-de-casamento" element={<Checklist />} />
+    </Routes>
   )
 }
 

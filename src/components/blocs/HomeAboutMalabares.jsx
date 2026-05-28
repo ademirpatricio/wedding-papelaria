@@ -1,6 +1,6 @@
 import Button from "../ui/Button";
 
-export default function AboutMalabares() {
+export default function HomeAboutMalabares() {
   return (
     <section className="w-full">
       
@@ -9,7 +9,10 @@ export default function AboutMalabares() {
         {/* =========================
             🟣 TEXTO (lado esquerdo)
         ========================= */}
-        <div className="bg-[#4f2286] text-white flex items-center">
+        <div
+          className="bg-[#4f2286] text-white flex items-center"
+          data-aos="fade-right"
+        >
           
           <div className="max-w-xl mx-auto px-8 py-20">
 
@@ -44,7 +47,11 @@ export default function AboutMalabares() {
         {/* =========================
             🖼️ IMAGEM (lado direito)
         ========================= */}
-        <div className="h-[400px] md:h-auto">
+        <div
+          className="h-[400px] md:h-auto"
+          data-aos="fade-left"
+          data-aos-delay="150"
+        >
           <img
             src="/images/malabares.jpg"
             alt="Equipe Malabares"

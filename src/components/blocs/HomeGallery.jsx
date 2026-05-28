@@ -1,4 +1,4 @@
-export default function Gallery() {
+export default function HomeGallery() {
   const images = [
     "/images/gallery/img1.jpg",
     "/images/gallery/img2.jpg",
@@ -21,6 +21,8 @@ export default function Gallery() {
           {images.map((src, index) => (
             <div
               key={index}
+              data-aos="zoom-in"
+              data-aos-delay={(index % 6) * 80}
               className="min-w-[250px] h-[250px] md:min-w-0 md:w-full md:h-[300px] overflow-hidden rounded-xl"
             >
               <img

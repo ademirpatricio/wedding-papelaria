@@ -1,6 +1,6 @@
 import Button from "../ui/Button";
 
-export default function About() {
+export default function HomeAbout() {
   return (
     <section className="w-full py-20 bg-[#f5f1ed]"
     style={{ backgroundImage: "url('/images/about.jpg')" }}>
@@ -11,7 +11,10 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         
         {/* 🖼️ IMAGENS */}
-        <div className="relative h-[240px]  md:h-[500px]">
+        <div
+          className="relative h-[240px]  md:h-[500px]"
+          data-aos="fade-right"
+        >
           
           <img
             src="/images/img2.png" alt=""
@@ -37,7 +40,11 @@ export default function About() {
         </div>
 
         {/* 📝 TEXTO */}
-        <div className="bg-white p-10 md:p-20 rounded-2xl shadow-xl text-left">
+        <div
+          className="bg-white p-10 md:p-20 rounded-2xl shadow-xl text-left"
+          data-aos="fade-left"
+          data-aos-delay="150"
+        >
           
           <h2 className="small-title text-purple-800">
             O convite do seu casamento deveria ser
@@ -63,7 +70,10 @@ export default function About() {
       <div className="max-w-5xl mx-auto px-6 mt-24 grid md:grid-cols-[1fr_1.8fr] gap-12 items-center">
         
         {/* 📝 TEXTO */}
-        <div className="text-center md:text-left order-2 md:order-1">
+        <div
+          className="text-center md:text-left order-2 md:order-1"
+          data-aos="fade-right"
+        >
           <h2 className="small-title text-purple-800">
             É isso que a Malabares Wedding faz por você.
           </h2>
@@ -81,7 +91,11 @@ export default function About() {
         </div>
 
         {/* 🖼️ IMAGEM */}
-        <div className="flex justify-center order-1 md:order-2">
+        <div
+          className="flex justify-center order-1 md:order-2"
+          data-aos="zoom-in"
+          data-aos-delay="150"
+        >
           <img
             src="/images/mockup.png"
             alt=""

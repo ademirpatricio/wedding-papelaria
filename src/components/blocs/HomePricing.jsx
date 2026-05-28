@@ -1,6 +1,6 @@
 import Button from "../ui/Button";
 
-export default function Pricing() {
+export default function HomePricing() {
   const plans = [
     {
       name: "🥂 Pacote Essencial",
@@ -45,7 +45,7 @@ export default function Pricing() {
       {/* =========================
           🧠 TÍTULO
       ========================= */}
-      <div className="text-center mb-10 px-6">
+      <div className="text-center mb-10 px-6" data-aos="fade-up">
         <h2 className="small-title">
           Escolha o pacote ideal para você:
         </h2>
@@ -59,6 +59,8 @@ export default function Pricing() {
         {plans.map((plan, index) => (
           <div
             key={index}
+            data-aos="fade-up"
+            data-aos-delay={index * 120}
             className="bg-white text-body rounded-2xl 
             md:p-12 p-6 py-8 flex flex-col justify-between shadow-xl"
           >
@@ -102,7 +104,7 @@ export default function Pricing() {
       {/* =========================
           💳 PAGAMENTO
       ========================= */}
-      <div className="mt-24 text-center px-6">
+      <div className="mt-24 text-center px-6" data-aos="fade-up">
   <p className="mb-10 text-xl text-white/90">
     Escolha a <strong>forma de pagamento</strong> que melhor se adequa a você:
   </p>
@@ -125,6 +127,8 @@ export default function Pricing() {
     ].map((item, index) => (
       <div
         key={index}
+        data-aos="fade-up"
+        data-aos-delay={index * 100}
         className="w-56 h-48 flex flex-col items-center justify-center gap-4
         border border-white/30 rounded-xl
         backdrop-blur-sm bg-white/5
@@ -154,7 +158,7 @@ export default function Pricing() {
       <div className="max-w-7xl mx-auto px-6 mt-24 grid md:grid-cols-[1.6fr_1fr] gap-2 items-center">
         
         {/* IMAGEM */}
-        <div className="flex justify-center">
+        <div className="flex justify-center" data-aos="fade-right">
           <img
             src="/images/ebook.png"
             alt=""
@@ -163,7 +167,11 @@ export default function Pricing() {
         </div>
 
         {/* TEXTO */}
-        <div className="text-center md:text-left">
+        <div
+          className="text-center md:text-left"
+          data-aos="fade-left"
+          data-aos-delay="150"
+        >
           <p className="mb-2 text-lg emphasis">+ Bônus - Ebook Gratuito</p>
 
           <h3 className="small-title emphasis text-primary mb-6">

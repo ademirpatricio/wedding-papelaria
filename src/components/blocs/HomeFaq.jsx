@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../ui/Button";
 
-export default function FAQ() {
+export default function HomeFaq() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
@@ -37,7 +37,10 @@ export default function FAQ() {
       {/* =========================
           🧠 TÍTULO
       ========================= */}
-      <div className="text-center mb-10 md:mb-16 px-6">
+      <div
+        className="text-center mb-10 md:mb-16 px-6"
+        data-aos="fade-up"
+      >
         <h2 className="title emphasis text-purple-800">
           F.A.Q <span className="text-2xl font-normal ml-4">Perguntas Frequentes</span>
         </h2>
@@ -51,6 +54,8 @@ export default function FAQ() {
         {faqs.map((item, index) => (
           <div
             key={index}
+            data-aos="fade-up"
+            data-aos-delay={index * 80}
             className="bg-[#e7e2db] rounded-xl p-5 cursor-pointer"
             onClick={() => toggle(index)}
           >
@@ -79,7 +84,7 @@ export default function FAQ() {
       <div className="max-w-7xl mx-auto px-6 mt-24 grid md:grid-cols-2 gap-2 items-center">
         
         {/* IMAGEM */}
-        <div className="flex justify-center">
+        <div className="flex justify-center" data-aos="fade-right">
           <img
             src="/images/whatsapp.png"
             alt="Whatsapp"
@@ -88,7 +93,7 @@ export default function FAQ() {
         </div>
 
         {/* TEXTO */}
-        <div>
+        <div data-aos="fade-left" data-aos-delay="150">
           <h3 className="small-title emphasis text-purple-800 mb-5">
             Ainda ficou com alguma dúvida?
           </h3>

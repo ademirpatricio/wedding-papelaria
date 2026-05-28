@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Button from "../ui/Button";
 import Social from "../ui/Social";
 
-export default function Hero() {
+export default function HomeHero() {
   const [offset, setOffset] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -78,7 +78,11 @@ export default function Hero() {
       <div className="relative z-10 flex items-center min-h-[calc(80vh-100px)]">
         <div className="max-w-6xl mx-auto px-6 w-full">
           
-          <div className="max-w-xl mx-auto md:mx-0 text-center md:text-left">
+          <div
+            className="max-w-xl mx-auto md:mx-0 text-center md:text-left"
+            data-aos="fade-right"
+            data-aos-delay="150"
+          >
             
             <h1 className="title text-white leading-tight">
               Transforme seu casamento com uma
@@ -103,8 +107,12 @@ export default function Hero() {
       </div>
 
       {/* BARRA */}
-      <div className="absolute bottom-0 w-full bg-gradient-to-r from-purple-900 to-pink-800 
-      py-4 md:py-8 px-4 md:px-8 text-center text-body tracking-wide">
+      <div
+        className="absolute bottom-0 w-full bg-gradient-to-r from-purple-900 to-pink-800 
+      py-4 md:py-8 px-4 md:px-8 text-center text-body tracking-wide"
+        data-aos="fade-up"
+        data-aos-delay="450"
+      >
         <span className="text-white">ATENÇÃO! Exclusivo para</span>{" "}
         <span className="text-yellow-300 emphasis">
           casais verdadeiramente apaixonados.

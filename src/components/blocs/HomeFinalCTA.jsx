@@ -1,6 +1,6 @@
 import Button from "../ui/Button";
 
-export default function FinalCTA() {
+export default function HomeFinalCTA() {
   return (
     <section className="w-full py-24 bg-[#f5f1ed] text-center"
     style={{ 
@@ -10,7 +10,7 @@ export default function FinalCTA() {
       backgroundRepeat: "no-repeat",
      }}>
       
-      <div className="max-w-3xl mx-auto px-6">
+      <div className="max-w-3xl mx-auto px-6" data-aos="fade-up">
         
         {/* =========================
             🧠 HEADLINE
@@ -32,11 +32,16 @@ export default function FinalCTA() {
         {/* =========================
             🎯 CTAs
         ========================= */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-12">
+        <div
+          className="flex flex-col md:flex-row justify-center items-center gap-4 mb-12"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
           
           <Button
             label="💍 ESCOLHA SEU PLANO"
             variant="purple"
+            link="#pricing"
           />
           <Button
             label="CHAMA NO WHATSAPP"
@@ -50,7 +55,11 @@ export default function FinalCTA() {
         {/* =========================
             🧾 FOOTER
         ========================= */}
-        <div className="flex flex-col items-center gap-4">
+        <div
+          className="flex flex-col items-center gap-4"
+          data-aos="fade-up"
+          data-aos-delay="250"
+        >
           
           <img
             src="/logo-color.svg"
