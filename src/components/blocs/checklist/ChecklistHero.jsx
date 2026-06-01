@@ -43,7 +43,7 @@ export default function ChecklistHero() {
           {/* CTA */}
           <div className="relative mt-10 flex flex-wrap gap-4">
             <a
-              href="#comprar"
+              href="https://gex.goexplosion.com/link/checkout?utm=checklist-completo-da-papelaria-de-casamento"
               className="group 
               w-full md:w-auto inline-flex items-center gap-3 px-12 py-5
               rounded-lg bg-[#7A1685] text-lg font-semibold text-white 

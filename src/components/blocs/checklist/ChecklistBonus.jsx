@@ -42,7 +42,7 @@ export default function ChecklistBonus() {
 
           {/* CTA */}
           <a
-            href="#comprar"
+            href="https://gex.goexplosion.com/link/checkout?utm=checklist-completo-da-papelaria-de-casamento"
             className="group mt-10 inline-flex items-center gap-3 
             rounded-xl border-2 border-white/40 bg-white/10 px-8 
             py-5 text-lg font-semibold text-white w-full md:w-auto

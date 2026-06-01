@@ -39,7 +39,7 @@ function ChecklistNav() {
           </div>
 
           <a
-            href="#comprar"
+            href="https://gex.goexplosion.com/link/checkout?utm=checklist-completo-da-papelaria-de-casamento"
             className="group inline-flex items-center gap-3 border-2 px-8 py-4
             border-[#7A1685] rounded-lg text-md text-[#7A1685] font-semibold
             transition hover:bg-[#7A1685] hover:text-white hidden md:inline-flex"
