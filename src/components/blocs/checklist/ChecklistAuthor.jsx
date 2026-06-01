@@ -1,6 +1,6 @@
 export default function ChecklistAuthor() {
   return (
-    <section className="px-4 py-20 md:px-8">
+    <section className="px-12 py-20 md:px-8">
       <div className="mx-auto grid max-w-7xl items-center gap-16 md:grid-cols-2">
         {/* IMAGE */}
         <div

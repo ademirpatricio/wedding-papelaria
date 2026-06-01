@@ -5,13 +5,13 @@ function ChecklistNav() {
     <section id="checklistNav" className=" px-4 py-10 md:px-8">
 
       {/* Containter */}
-      <div className="mx-auto flex max-w-7xl items-center justify-between">
+      <div className="mx-auto flex flex-col md:flex-row max-w-7xl items-center justify-between">
 
         {/* LOGO */}
         <img
         src="/logo-wedding-color.png"
         alt="Malabares Wedding"
-        className="h-12 w-auto md:h-14"
+        className="h-14 w-auto mb-6 md:mb-0"
         />
         
         <div className="flex items-center gap-4 md:gap-6">

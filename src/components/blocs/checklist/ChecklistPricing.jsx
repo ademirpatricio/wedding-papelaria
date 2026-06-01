@@ -11,7 +11,7 @@ export default function ChecklistPricing() {
         {/* LEFT */}
         <div
           className="relative flex items-center justify-center overflow-hidden 
-          px-8 py-16"
+          px-8 py-24 md:py-16"
           data-aos="fade-right"
           style={{
             backgroundImage: "url('/images/checklist-de-casamento/pricing-bg.jpg')",
@@ -76,11 +76,12 @@ export default function ChecklistPricing() {
               </p>
 
               <div className="mt-2 flex items-start">
-                <span className="font-bolder leading-none text-[#7A1685] text-4xl md:text-6xl">
+                <span className="font-bold leading-none text-[#7A1685] text-5xl  
+                md:text-7xl">
                   R$19
                 </span>
 
-                <span className="mt-2 text-2xl font-bold text-[#7A1685] md:text-4xl">
+                <span className="mt-2 text-3xl font-bold text-[#7A1685] md:text-5xl">
                   ,90
                 </span>
               </div>
@@ -92,7 +93,7 @@ export default function ChecklistPricing() {
               href="#comprar"
               className="group inline-flex items-center gap-3 px-12 py-5
               rounded-lg bg-[#7A1685] text-lg font-semibold text-white 
-              transition hover:bg-[#540F5E]"
+              transition hover:bg-[#540F5E] w-full md:w-auto"
             >
               Comprar ebook
 

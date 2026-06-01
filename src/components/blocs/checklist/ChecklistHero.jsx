@@ -22,7 +22,7 @@ export default function ChecklistHero() {
           data-aos="fade-right"
           data-aos-delay="150"
         >
-          <span className="relative mb-5 text-sm font-light 
+          <span className="relative mb-5 text-sm  
           uppercase tracking-[0.2em] text-[#7A1685]">
             Checklist Completo da Papelaria de Casamento
           </span>
@@ -44,7 +44,8 @@ export default function ChecklistHero() {
           <div className="relative mt-10 flex flex-wrap gap-4">
             <a
               href="#comprar"
-              className="group inline-flex items-center gap-3 px-12 py-5
+              className="group 
+              w-full md:w-auto inline-flex items-center gap-3 px-12 py-5
               rounded-lg bg-[#7A1685] text-lg font-semibold text-white 
               transition hover:bg-[#540F5E]"
             >
@@ -67,8 +68,9 @@ export default function ChecklistHero() {
 
           {/* seal */}
           <div
-            className="absolute right-8 top-8 z-20 flex
-            items-center justify-center text-center"
+            className="absolute z-20 flex
+            left-4 right-auto top-24 w-40 
+            md:right-8 md:left-auto"
             data-aos="zoom-in"
             data-aos-delay="500"
           >
@@ -83,7 +85,7 @@ export default function ChecklistHero() {
           <img
             src="/images/checklist-de-casamento/thayna-checklist.png"
             alt="Checklist completo da papelaria do casamento"
-            className="relative z-10 w-full max-w-md object-contain -ml-20"
+            className="relative z-10 w-full max-w-md object-contain md:-ml-20"
           />
         </div>
       </div>

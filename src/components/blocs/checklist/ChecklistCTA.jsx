@@ -7,13 +7,13 @@ export default function ChecklistCTA() {
       rounded-xl bg-[#f3edf5] md:grid-cols-2">
         {/* LEFT */}
         <div
-          className="flex items-center px-16 py-12 md:px-24"
+          className="flex items-center px-12 md:px-16 py-12 md:px-24"
           data-aos="fade-right"
         >
           <div className="max-w-xl">
             <span className="mb-5 inline-block rounded-full 
             bg-[#7A1685]/10 px-4 py-2 text-sm font-semibold 
-            uppercase tracking-[0.2em] text-[#7A1685]">
+            uppercase tracking-[0.2em] text-[#7A1685] hidden md:inline-block">
               Seu casamento começa aqui
             </span>
 
@@ -33,9 +33,9 @@ export default function ChecklistCTA() {
             <div className="relative mt-10 flex flex-wrap gap-4">
               <a
                 href="#comprar"
-                className="group inline-flex items-center gap-3 px-12 py-5
+                className="group inline-flex items-center gap-3 px-6 md:px-12 py-5
                 rounded-lg bg-[#7A1685] text-lg font-semibold text-white 
-                transition hover:bg-[#540F5E]"
+                transition hover:bg-[#540F5E] w-full md:w-auto"
               >
                 Comprar ebook
 
@@ -50,7 +50,7 @@ export default function ChecklistCTA() {
 
         {/* RIGHT */}
         <div
-          className="relative min-h-[620px] overflow-hidden"
+          className="relative min-h-[350px] md:min-h-[620px] overflow-hidden"
           data-aos="fade-left"
           style={{
             backgroundImage: "url('/images/checklist-de-casamento/cta-bg.jpg')",

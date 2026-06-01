@@ -29,7 +29,7 @@ export default function ChecklistVideo() {
 
         {/* VIDEO */}
         <div
-          className="relative mx-auto overflow-hidden rounded-[20px] 
+          className="relative mx-auto overflow-hidden rounded-xl 
           border border-white/50 bg-white"
           data-aos="zoom-in"
           data-aos-delay="150"
