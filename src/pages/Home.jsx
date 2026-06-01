@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+import { Helmet } from 'react-helmet-async'
+
 import HomeHero from '../components/blocs/HomeHero.jsx'
 import HomeAbout from '../components/blocs/HomeAbout.jsx'
 import HomeBenefits from '../components/blocs/HomeBenefits.jsx'
@@ -25,6 +27,42 @@ function Home() {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Malabares Wedding • Papelaria e identidade visual para casamentos
+        </title>
+
+        <meta
+          name="description"
+          content="Papelaria personalizada para casamentos com identidade visual elegante, emocional e inesquecível."
+        />
+
+        <meta
+          property="og:title"
+          content="Malabares Wedding"
+        />
+
+        <meta
+          property="og:description"
+          content="Papelaria personalizada para casamentos."
+        />
+
+        <meta
+          property="og:image"
+          content="https://www.malabares.com.br/og-image.jpg"
+        />
+
+        <meta
+          property="og:type"
+          content="website"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.malabares.com.br/"
+        />
+      </Helmet>
+
       <HomeHero />
       <HomeAbout />
       <HomeBenefits />

@@ -54,19 +54,20 @@ const benefits = [
 
 export default function ChecklistBenefits() {
   return (
-    <section className="bg-[#f7f3ef] px-4 py-24 md:px-8">
+    <section className="bg-[#f7f3ef] px-4 py-10 md:px-8">
       <div className="mx-auto max-w-7xl">
         {/* HEADING */}
-        <div className="mx-auto max-w-3xl text-center" data-aos="fade-up">
-          <span className="mb-4 inline-block rounded-full bg-[#7A1685]/10 px-4 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#7A1685]">
+        <div className="mx-auto text-center" data-aos="fade-up">
+          <span className="mb-5 inline-block rounded-full bg-[#7A1685]/10 px-4 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#7A1685]">
             O que você vai encontrar
           </span>
 
-          <h2 className="font-['Source_Serif_4'] text-4xl leading-tight text-[#2d0b45] md:text-6xl">
+          <h2 className="font-['Source_Serif_4'] mb-4
+          text-3xl leading-tight text-[#2d0b45] md:text-4xl">
             Um guia completo para criar uma experiência visual inesquecível
           </h2>
 
-          <p className="mt-6 text-lg leading-relaxed text-[#5f5466]">
+          <p className="text-lg leading-relaxed text-[#5f5466]">
             Tudo pensado para ajudar você a organizar,
             personalizar e elevar a identidade visual
             do seu casamento.

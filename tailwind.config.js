@@ -13,6 +13,9 @@ export default {
         sans: ["Source Sans 3", "sans-serif"],
         serif: ["Source Serif 4", "serif"],
       },
+      animation: {
+        'spin-slow': 'spin 12s linear infinite',
+      },
     },
   },
   plugins: [],
