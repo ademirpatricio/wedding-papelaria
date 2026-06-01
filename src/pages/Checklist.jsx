@@ -25,12 +25,16 @@ function Checklist() {
     });
   }, []);
 
+  const pageUrl =
+    "https://wedding.malabares.com.br/checklist-completo-papelaria-de-casamento";
+  const ogImageUrl =
+    "https://wedding.malabares.com.br/images/checklist-de-casamento/og-checklist.jpg";
+
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: "Checklist Completo da Papelaria de Casamento",
-    image:
-      "https://www.malabares.com.br/images/seo/og-checklist.jpg",
+    image: ogImageUrl,
     description:
       "Checklist completo para organizar a papelaria do casamento com modelos editáveis no Canva e Photoshop.",
     brand: {
@@ -42,7 +46,7 @@ function Checklist() {
       price: "19.90",
       priceCurrency: "BRL",
       availability: "https://schema.org/InStock",
-      url: "https://www.malabares.com.br/checklist-completo-papelaria-de-casamento",
+      url: pageUrl,
     },
   };
 
@@ -117,7 +121,7 @@ function Checklist() {
         {/* Canonical */}
         <link
           rel="canonical"
-          href="https://wedding.malabares.com.br/checklist-completo-papelaria-de-casamento"
+          href={pageUrl}
         />
 
         {/* Open Graph */}
@@ -133,12 +137,12 @@ function Checklist() {
 
         <meta
           property="og:image"
-          content="https://wedding.malabares.com.br/images/checklist-de-casamento/og-checklist.jpg"
+          content={ogImageUrl}
         />
 
         <meta
           property="og:url"
-          content="https://wedding.malabares.com.br/checklist-completo-papelaria-de-casamento"
+          content={pageUrl}
         />
 
         <meta
@@ -174,7 +178,7 @@ function Checklist() {
 
         <meta
           name="twitter:image"
-          content="https://wedding.malabares.com.br/checklist-de-casamento/og-checklist.jpg"
+          content={ogImageUrl}
         />
 
         {/* Schema Product */}
