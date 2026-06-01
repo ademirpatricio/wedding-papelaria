@@ -2,25 +2,20 @@ import { Heart } from "lucide-react";
 
 export default function ChecklistFooter() {
   return (
-    <footer className="bg-[#f7f3ef] px-4 pb-10 pt-20 md:px-8">
+    <footer className="px-4 pb-20 md:px-8">
       <div className="mx-auto max-w-7xl">
         {/* TOP */}
         <div
-          className="flex flex-col items-center justify-between gap-10 border-t border-[#eadff0] pt-10 md:flex-row"
+          className="flex flex-col items-center justify-between gap-10 pt-10 md:flex-row"
           data-aos="fade-up"
         >
           {/* LOGO */}
           <div className="flex flex-col items-center gap-3 md:items-start">
             <img
-              src="/logo.svg"
+              src="/logo-wedding-color.png"
               alt="Malabares Wedding"
               className="h-14 w-auto"
             />
-
-            <p className="max-w-sm text-center text-sm leading-relaxed text-[#7b6f83] md:text-left">
-              Papelaria e identidade visual para casamentos
-              com mais emoção, organização e personalidade.
-            </p>
           </div>
 
           {/* CENTER */}
@@ -30,6 +25,7 @@ export default function ChecklistFooter() {
               <span className="font-semibold text-[#4b1162]">
                 Malabares MKT
               </span>
+              • Todos os direitos reservados{" "}
             </p>
 
             <p className="mt-2 flex items-center justify-center gap-2 text-sm text-[#7b6f83]">
@@ -44,46 +40,27 @@ export default function ChecklistFooter() {
 
           {/* SOCIAL */}
           <div className="flex items-center gap-4">
-            <a
-              href="#"
-              className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[#eadff0] bg-white text-[#7A1685] transition hover:-translate-y-1 hover:border-[#d8b5e8] hover:shadow-lg"
-            >
-              <img
-                src="/icons/ic-instagram.svg"
-                alt="Instagram"
-                className="h-7 w-7"
-              />
+            <a href="https://www.instagram.com/malabaresmkt" 
+              className="transition hover:scale-110"
+              title="Seguir no Instagram" target="_blank" rel="noopener noreferrer">
+              <img src="/icons/ic-instagram-primary.svg" alt="Instagram" className="h-8 w-8"/>
             </a>
 
-            <a
-              href="#"
-              className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[#eadff0] bg-white text-[#7A1685] transition hover:-translate-y-1 hover:border-[#d8b5e8] hover:shadow-lg"
-            >
-              <img
-                src="/icons/ic-linkedin.svg"
-                alt="LinkedIn"
-                className="h-7 w-7"
-              />
+            {/* Linkedin */}
+            <a href="https://www.linkedin.com/company/malabaresmkt/?viewAsMember=true" 
+              className="text-[#7A1685] transition hover:scale-110"
+              title="Seguir no LinkedIn" target="_blank" rel="noopener noreferrer">
+              <img src="/icons/ic-linkedin-primary.svg" alt="LinkedIn" className="h-8 w-8"/>
             </a>
 
-            <a
-              href="#"
-              className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[#eadff0] bg-white text-[#7A1685] transition hover:-translate-y-1 hover:border-[#d8b5e8] hover:shadow-lg"
-            >
-              <img
-                src="/icons/ic-tiktok.svg"
-                alt="TikTok"
-                className="h-7 w-7"
-              />
+            {/* TikTok */}
+            <a href="https://www.tiktok.com/@malabares.mkt" 
+              className="text-[#7A1685] transition hover:scale-110" 
+              title="Seguir no TikTok" target="_blank" rel="noopener noreferrer">
+              <img src="/icons/ic-tiktok-primary.svg" alt="TikTok" className="h-8 w-8"/>
             </a>
+
           </div>
-        </div>
-
-        {/* BOTTOM */}
-        <div className="mt-10 border-t border-[#eadff0] pt-6 text-center">
-          <p className="text-sm text-[#9b8fa3]">
-            Todos os direitos reservados • Malabares Wedding
-          </p>
         </div>
       </div>
     </footer>

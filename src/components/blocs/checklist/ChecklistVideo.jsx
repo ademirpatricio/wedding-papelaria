@@ -2,7 +2,7 @@ import { Play } from "lucide-react";
 
 export default function ChecklistVideo() {
   return (
-    <section className="bg-[#f7f3ef] px-4 py-24 md:px-8">
+    <section className="px-4 py-24 md:px-8">
       <div className="mx-auto max-w-5xl text-center">
         {/* HEADING */}
         <div className="mx-auto max-w-4xl" data-aos="fade-up">
@@ -30,7 +30,7 @@ export default function ChecklistVideo() {
         {/* VIDEO */}
         <div
           className="relative mx-auto overflow-hidden rounded-[20px] 
-          border border-white/50 bg-white shadow-[0_30px_100px_rgba(45,11,69,0.08)]"
+          border border-white/50 bg-white"
           data-aos="zoom-in"
           data-aos-delay="150"
         >
@@ -43,7 +43,8 @@ export default function ChecklistVideo() {
               className="h-full w-full"
               src="https://www.youtube.com/embed/AbsZvSVgdYQ"
               title="Checklist Completo da Papelaria de Casamento"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+              gyroscope; picture-in-picture"
               allowFullScreen
             />
           </div>

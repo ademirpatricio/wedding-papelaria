@@ -7,7 +7,7 @@ export default function ChecklistHero() {
 
       {/* HERO */}
       <div
-        className="relative mx-auto grid max-w-7xl overflow-hidden 
+        className="relative mx-auto grid max-w-7xl overflow-hidden
         rounded-xl md:grid-cols-2" 
         style={{
           backgroundImage: "url('/images/checklist-de-casamento/hero-bg.jpg')",

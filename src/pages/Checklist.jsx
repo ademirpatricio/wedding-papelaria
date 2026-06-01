@@ -25,31 +25,120 @@ function Checklist() {
     });
   }, []);
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: "Checklist Completo da Papelaria de Casamento",
+    image:
+      "https://www.malabares.com.br/images/seo/og-checklist.jpg",
+    description:
+      "Checklist completo para organizar a papelaria do casamento com modelos editáveis no Canva e Photoshop.",
+    brand: {
+      "@type": "Brand",
+      name: "Malabares Wedding",
+    },
+    offers: {
+      "@type": "Offer",
+      price: "19.90",
+      priceCurrency: "BRL",
+      availability: "https://schema.org/InStock",
+      url: "https://www.malabares.com.br/checklist-completo-papelaria-de-casamento",
+    },
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "O que vou encontrar no eBook?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Um checklist completo da papelaria de casamento, além de modelos editáveis para personalização.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "O conteúdo serve para qualquer estilo de casamento?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Sim. O material foi pensado para diferentes estilos e propostas de casamento.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Como recebo o eBook após a compra?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Após a confirmação do pagamento, você recebe acesso ao material digital.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Posso usar os modelos mesmo sem saber design?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Sim. Os modelos foram desenvolvidos para facilitar a personalização mesmo para iniciantes.",
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <Helmet>
+        {/* SEO */}
         <title>
-          Checklist Completo da Papelaria de Casamento • Malabares Wedding
+          Checklist Completo da Papelaria de Casamento + Modelos Editáveis |
+          Malabares Wedding
         </title>
 
         <meta
           name="description"
-          content="Organize todos os detalhes da papelaria do seu casamento com um checklist completo + modelos editáveis no Canva e Photoshop."
+          content="Planeje cada detalhe da papelaria do seu casamento com um checklist completo e modelos editáveis no Canva e Photoshop. Organize convites, save the date, menus, tags e muito mais."
         />
 
         <meta
+          name="keywords"
+          content="papelaria de casamento, checklist casamento, convite de casamento, save the date, identidade visual casamento, papelaria personalizada, modelos editáveis canva, convite editável, casamento elegante, malabares wedding"
+        />
+
+        <meta
+          name="robots"
+          content="index, follow, max-image-preview:large"
+        />
+
+        <meta
+          name="author"
+          content="Malabares Wedding"
+        />
+
+        {/* Canonical */}
+        <link
+          rel="canonical"
+          href="https://wedding.malabares.com.br/checklist-completo-papelaria-de-casamento"
+        />
+
+        {/* Open Graph */}
+        <meta
           property="og:title"
-          content="Checklist Completo da Papelaria de Casamento"
+          content="Checklist Completo da Papelaria de Casamento + Modelos Editáveis"
         />
 
         <meta
           property="og:description"
-          content="Checklist + modelos editáveis para organizar a identidade visual do seu casamento."
+          content="Checklist completo + modelos editáveis para organizar a identidade visual do seu casamento."
         />
 
         <meta
           property="og:image"
-          content="https://www.malabares.com.br/images/seo/og-checklist.jpg"
+          content="https://wedding.malabares.com.br/images/checklist-de-casamento/og-checklist.jpg"
+        />
+
+        <meta
+          property="og:url"
+          content="https://wedding.malabares.com.br/checklist-completo-papelaria-de-casamento"
         />
 
         <meta
@@ -58,14 +147,45 @@ function Checklist() {
         />
 
         <meta
-          property="og:url"
-          content="https://www.malabares.com.br/checklist-completo-papelaria-de-casamento"
+          property="og:site_name"
+          content="Malabares Wedding"
         />
 
-        <link
-          rel="canonical"
-          href="https://www.malabares.com.br/checklist-completo-papelaria-de-casamento"
+        <meta
+          property="og:locale"
+          content="pt_BR"
         />
+
+        {/* Twitter */}
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+
+        <meta
+          name="twitter:title"
+          content="Checklist Completo da Papelaria de Casamento"
+        />
+
+        <meta
+          name="twitter:description"
+          content="Checklist completo + modelos editáveis para organizar a identidade visual do seu casamento."
+        />
+
+        <meta
+          name="twitter:image"
+          content="https://wedding.malabares.com.br/checklist-de-casamento/og-checklist.jpg"
+        />
+
+        {/* Schema Product */}
+        <script type="application/ld+json">
+          {JSON.stringify(productSchema)}
+        </script>
+
+        {/* Schema FAQ */}
+        <script type="application/ld+json">
+          {JSON.stringify(faqSchema)}
+        </script>
       </Helmet>
 
       <ChecklistNav />
