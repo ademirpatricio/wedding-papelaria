@@ -49,7 +49,7 @@ export default function ChecklistAuthor() {
             </p>
 
             <p>
-              Este eBook reúne orientações práticas, referências
+              Este e-Book reúne orientações práticas, referências
               visuais e dicas essenciais para que você organize
               cada detalhe com mais segurança, sofisticação
               e personalidade.

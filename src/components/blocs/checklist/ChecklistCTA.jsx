@@ -37,7 +37,7 @@ export default function ChecklistCTA() {
                 rounded-lg bg-[#7A1685] text-lg font-semibold text-white 
                 transition hover:bg-[#540F5E] w-full md:w-auto"
               >
-                Comprar ebook
+                Comprar e-Book
 
                 <ArrowRight
                   size={20}

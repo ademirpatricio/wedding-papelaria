@@ -14,6 +14,7 @@ import ChecklistBonus from "../components/blocs/checklist/ChecklistBonus";
 import ChecklistFAQ from "../components/blocs/checklist/ChecklistFAQ";
 import ChecklistPricing from "../components/blocs/checklist/ChecklistPricing";
 import ChecklistFooter from "../components/blocs/checklist/ChecklistFooter";
+import Whatsapp from "../components/ui/Whatsapp";
 
 function Checklist() {
   useEffect(() => {
@@ -56,7 +57,7 @@ function Checklist() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "O que vou encontrar no eBook?",
+        name: "O que vou encontrar no e-Book?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "Um checklist completo da papelaria de casamento, além de modelos editáveis para personalização.",
@@ -72,7 +73,7 @@ function Checklist() {
       },
       {
         "@type": "Question",
-        name: "Como recebo o eBook após a compra?",
+        name: "Como recebo o e-Book após a compra?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "Após a confirmação do pagamento, você recebe acesso ao material digital.",
@@ -202,6 +203,7 @@ function Checklist() {
       <ChecklistFAQ />
       <ChecklistPricing />
       <ChecklistFooter />
+      <Whatsapp />
     </>
   );
 }

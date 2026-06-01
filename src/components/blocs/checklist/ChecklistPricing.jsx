@@ -38,7 +38,7 @@ export default function ChecklistPricing() {
             {/* title */}
             <h2 className="mt-6 font-['Source_Serif_4'] 
             text-3xl leading-[1.05] text-[#2d0b45] md:text-4xl">
-              Garanta agora o seu eBook e comece a planejar um casamento inesquecível
+              Garanta agora o seu e-Book e comece a planejar um casamento inesquecível
             </h2>
 
             {/* benefits */}
@@ -95,7 +95,7 @@ export default function ChecklistPricing() {
               rounded-lg bg-[#7A1685] text-lg font-semibold text-white 
               transition hover:bg-[#540F5E] w-full md:w-auto"
             >
-              Comprar ebook
+              Comprar e-Book
 
               <ArrowRight
                 size={20}

@@ -12,7 +12,7 @@ export default function ChecklistFooter() {
           {/* LOGO */}
           <div className="flex flex-col items-center gap-3 md:items-start">
             <img
-              src="/logo-wedding-color.png"
+              src="/logo-wedding-color.svg"
               alt="Malabares Wedding"
               className="h-14 w-auto"
             />

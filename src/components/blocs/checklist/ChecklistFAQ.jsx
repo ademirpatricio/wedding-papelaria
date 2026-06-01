@@ -3,7 +3,7 @@ import { Plus, Minus } from "lucide-react";
 
 const faqItems = [
   {
-    question: "O que vou encontrar no eBook?",
+    question: "O que vou encontrar no e-Book?",
     answer:
       "Você encontrará um checklist completo da papelaria de casamento, dicas de identidade visual, sugestões de cronograma, referências visuais e modelos editáveis no Canva e Photoshop.",
   },
@@ -17,9 +17,9 @@ const faqItems = [
 
   {
     question:
-      "Como recebo o eBook após a compra?",
+      "Como recebo o e-Book após a compra?",
     answer:
-      "Após a confirmação do pagamento, você receberá automaticamente o acesso ao eBook e aos bônus diretamente no seu e-mail.",
+      "Após a confirmação do pagamento, você receberá automaticamente o acesso ao e-Book e aos bônus diretamente no seu e-mail.",
   },
 
   {

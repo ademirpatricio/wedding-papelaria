@@ -6,12 +6,14 @@
    🧠 BASE
 ========================= */
 @layer base {
+
   html {
     font-family: "Source Sans 3", sans-serif;
     scroll-behavior: smooth;
   }
 
   body {
+    overflow-x: hidden;
     @apply text-gray-700 bg-white antialiased;
   }
 }

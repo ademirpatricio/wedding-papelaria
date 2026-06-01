@@ -18,7 +18,7 @@ export default function ChecklistHero() {
       >
         {/* TEXT */}
         <div
-          className="relative z-10 flex flex-col justify-center px-8 py-14 md:px-16"
+          className="relative z-10 flex flex-col justify-center px-8 py-14 md:px-20"
           data-aos="fade-right"
           data-aos-delay="150"
         >
@@ -49,7 +49,7 @@ export default function ChecklistHero() {
               rounded-lg bg-[#7A1685] text-lg font-semibold text-white 
               transition hover:bg-[#540F5E]"
             >
-              Comprar ebook
+              Comprar e-Book
 
               <ArrowRight
                 size={20}

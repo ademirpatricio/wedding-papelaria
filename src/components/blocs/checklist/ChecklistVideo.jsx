@@ -8,12 +8,12 @@ export default function ChecklistVideo() {
         <div className="mx-auto max-w-4xl" data-aos="fade-up">
           <span className="mb-4 inline-block rounded-full bg-[#7A1685]/10 px-4 
           py-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#7A1685]">
-            Apresentação do ebook
+            Apresentação do e-Book
           </span>
 
           <h2 className="font-['Source_Serif_4'] text-3xl mb-4
           leading-tight text-[#2d0b45] md:text-4xl">
-            Com esse eBook, você aprenderá a organizar
+            Com esse e-Book, você aprenderá a organizar
             cada detalhe da papelaria do seu casamento
           </h2>
 
