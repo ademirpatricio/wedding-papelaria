@@ -142,6 +142,31 @@ function Checklist() {
         />
 
         <meta
+          property="og:image:secure_url"
+          content={ogImageUrl}
+        />
+
+        <meta
+          property="og:image:type"
+          content="image/jpeg"
+        />
+
+        <meta
+          property="og:image:width"
+          content="1200"
+        />
+
+        <meta
+          property="og:image:height"
+          content="630"
+        />
+
+        <meta
+          property="og:image:alt"
+          content="Checklist Completo da Papelaria de Casamento da Malabares Wedding"
+        />
+
+        <meta
           property="og:url"
           content={pageUrl}
         />
@@ -180,6 +205,11 @@ function Checklist() {
         <meta
           name="twitter:image"
           content={ogImageUrl}
+        />
+
+        <meta
+          name="twitter:image:alt"
+          content="Checklist Completo da Papelaria de Casamento da Malabares Wedding"
         />
 
         {/* Schema Product */}
